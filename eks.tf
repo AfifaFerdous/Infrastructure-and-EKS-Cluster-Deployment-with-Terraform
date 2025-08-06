@@ -22,8 +22,9 @@ module "eks_al2023" {
     feb-23-public-1 = {
       instance_types = ["t2.medium"]
       min_size       = 2
-      max_size       = 5
+      max_size       = 4
       desired_size   = 2
     }
   }
+
 }
