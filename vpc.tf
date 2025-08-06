@@ -2,7 +2,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.1.2" # ✅ compatible with aws < 6.0.0
 
-  name = "feb-23-infra"
+  name = "eks"
   cidr = "10.10.0.0/16"
 
   azs             = ["us-east-1a", "us-east-1b", "us-east-1c"]
